@@ -1,0 +1,454 @@
+html{scroll-behavior: smooth;}
+
+*{margin: 0; padding: 0; box-sizing: border-box; outline: none; font-family: -webkit-pictograph; text-decoration: none; list-style-type: none; }
+header {
+    height: 72px;
+    display: flex;
+    box-shadow: 2px 2px 28px silver;
+    justify-content: space-evenly;
+    gap: 0 368px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.logo i {
+    color: lawngreen;
+    font-size: 27px;
+    margin-right: 6px;
+}
+.logo {
+    margin: 21px;
+    font-size: 25px;
+}
+.nav-icn ul {
+    display: flex;
+    gap: 0 15px;
+    font-size: 21px;
+    position: absolute;
+    right: 71px;
+    top: 13.1px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.nav ul {
+    display: flex;
+    
+    margin: 11px 0 0 -37px;
+    font-size: 17px;
+    align-items: baseline;
+    cursor: pointer;
+}
+.nav ul li a{color: black;}
+
+li.home{
+    background-color: greenyellow;
+    color: white;
+    font-weight: bold;
+}
+.nav ul li {
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+.nav ul li:hover {
+    background-color: greenyellow;
+    color: white;
+   
+}
+.nav-icn ul li:hover{
+         color: grey;
+         font-weight: bold;
+}
+.nav-icn ul li {
+    padding: 7px 12px;
+    background-color: silver;
+    border-radius: 50%;
+}
+container{min-height: 400px; display: flex; flex-wrap: wrap;}
+.s{
+    width: 50%;
+}
+.lef-data {
+    padding: 116.1px 0 0 100px;
+    margin-top: 125px;
+}
+.lef-data .txt-1 {
+    font-size: 25px;
+    color: lawngreen;
+}
+.lef-data button {
+    margin: 26px;
+    padding: 6px 20px;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.lef-data .txt-3 {
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lef-data .txt-2 {
+    font-size: 41px;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 60px;
+}
+span.restro {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 17px;
+}
+.rig-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 152px;
+}
+.dots{margin: auto;}
+.dots ul {
+    display: flex;
+    width: 145%;
+    justify-content: space-between;
+}
+.dots ul li {
+    padding: 6px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+menu .txt-1{margin: auto; font-size: 24px; color: lawngreen; margin-top: 30px; text-align: center;}
+menu .txt-2{margin: auto; font-size: 30px; margin-top: 5px; margin-bottom: 2px; text-align: center;}
+.food-item{margin: auto; width: 90%; height: 400px;}
+.item-1 ul {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 10px;
+    justify-content: space-evenly;
+}
+.item-1 ul li {
+    width: 30%;
+    min-height: 382px;
+    box-shadow: 0 0 13px silver;
+    padding: 12px 41px 0 44px;
+    transition: 0.9s;
+}
+
+.item-1 ul li:hover{
+   
+    cursor: pointer;
+  
+} 
+.item-1 ul li:hover .eye{
+    display: block;
+}
+.item-1 ul li:hover .heart{
+    display: block;
+}
+
+span.tasty {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+span.add {
+    padding: 8px 25px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    float: right;
+}
+span.price {
+    font-size: 23px;
+    font-weight: bold;
+    color: green;
+}
+span.star {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    line-height: 15px;
+    color: orangered;
+}
+.eye, .heart{
+    padding: 13px 15px; background-color: silver; border-radius: 50%; color: rgb(43, 40, 40); font-size: 17px; position: absolute;
+}
+.eye{margin-left: -22px; display: none;}
+.heart{margin-left: 260px; display: none;}
+.eye:hover, .heart:hover{
+    color: white; background-color: lawngreen;
+}
+menu {
+    min-height: 907px;
+    transition: 5s;
+   
+}
+aboutus{display: block; min-height: 300px;}
+.about-us{margin: auto; text-align: center; margin-bottom: 45px;}
+.about-us .about{font-size: 24px; color: lawngreen; font-weight: bold;}
+.about-us .why{font-size: 30px;}
+.data ul{display: flex; justify-content: space-between; flex-wrap: wrap;}
+.data ul li{width: 45%;}
+.data .txt-1 {
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 84px;
+}
+.data{margin-bottom: 50px;}
+.data .txt-2 {
+    font-size: 16px;
+    line-height: 32px;
+}
+.data .btns {
+    display: flex;
+   gap: 0 18px;
+   flex-wrap: wrap;
+    margin-top: 14px;
+}
+.btn-1 {
+    padding: 12px 35px;
+    font-size: 13px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-1 i{color: lawngreen; font-size: 20px;}
+.btn-2 {
+    background-color: darkslateblue;
+    color: white;
+    padding: 12px 35px;
+    border: 1px solid;
+   cursor: pointer;
+}
+.dish-cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 87%;
+    min-height: 600px;
+    gap: 24px 31px;
+    position: relative;
+   
+   
+}
+.dishes {
+    width: 29%;
+    height: 470px;
+    box-shadow: 0 0 16px 0px silver;
+    padding: 16px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    z-index: -10;
+}
+.dishes:hover{transform: translateY(-10px);}
+.star-2{margin-left: -190px; margin-top: 16px;}
+
+.price-2, .add-2 {
+    position: relative;
+    top: 10px;
+}
+span.view {
+    font-size: 16px;
+}
+span.delicious {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 44px;
+}
+ourmenu .txt-1{margin: auto; font-size: 24px; color: lawngreen; margin-top: 30px; text-align: center;}
+ourmenu .txt-2{margin: auto; font-size: 30px; margin-top: 5px; margin-bottom: 2px; text-align: center; margin-bottom: 40px;}
+
+review{display: block;}
+review .txt-1{margin: auto; font-size: 24px; color: lawngreen; margin-top: 30px; text-align: center;}
+review .txt-2{margin: auto; font-size: 30px; margin-top: 5px; margin-bottom: 2px; text-align: center; margin-bottom: 30px;}
+.c-r-cont {
+    margin: auto;
+    display: -webkit-inline-box;
+    margin-left: 232px;
+    width: 972px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.c-r {
+    width: 330px;
+    height: 350px;
+    box-shadow: 0 0 16px 0px silver;
+    margin: 10px;
+    padding: 12px;
+    position: relative;
+    z-index: -10;
+}
+.c-r .star {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    position: relative;
+    top: -55px;
+    left: 80px;
+}
+.c-r .review {
+    position: relative;
+    top: -60px;
+    font-size: 16px;
+    color: darkslategrey;
+}
+.c-r .dbl-qts i {
+    position: relative;
+    top: -142px;
+    font-size: 46px;
+    left: 248px;
+    color: silver;
+}
+.c-r .txt1 {
+    font-weight: bold;
+    color: darkslateblue;
+    font-size: 20px;
+    position: relative;
+    top: -42px;
+    left: 3px;
+}
+.c-r img {
+    height: 67px;
+    border-radius: 50%;
+    margin: 11px;
+}
+
+collectdata{display: block; margin-top: 52px;}
+collectdata .txt-1{margin: auto; font-size: 24px; color: lawngreen; margin-top: 30px; text-align: center;}
+collectdata .txt-2{margin: auto; font-size: 30px; margin-top: 5px; margin-bottom: 2px; text-align: center; margin-bottom: 30px;}
+.form-section{margin: auto; width: 69%; height: 500px; border: 1px solid darkslategrey; border-radius: 4px; box-shadow: 0 0 22px silver; display: flex; padding: 10px; justify-content: space-between;}
+.bx{width: 49%; height: 430px;}
+
+
+.name textarea {
+    width: 100%;
+    padding-left: 14px;
+    padding-top: 6px;
+    font-size: 16px;
+    background: silver;
+    resize: none;
+    border: none;
+}
+.name {
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+.name input {
+    width: 100%;
+    height: 45px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: silver;
+    font-size: 15px;
+}
+collectdata button {
+    width: 131px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    background: darkviolet;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: -48px;
+    left: 222px;
+    cursor: pointer;
+}
+collectdata button:hover{background: lightskyblue;}
+footer{min-height: 300px; box-shadow: 0 0 15px silver; padding: 10px 25px;}
+.footer-part{margin: auto; border-bottom: 1px solid darkslategrey; display: flex; justify-content: space-between; width: 85%; padding-bottom: 21px; margin-bottom: 8px;}
+.loc{font-size: 20px; color: darkviolet; line-height: 62px;}
+.location ul {
+    font-size: 18px;
+    text-align: center;
+}
+.location ul li a{color: black;}
+.location ul li a:hover{cursor: pointer; color: tomato; text-decoration: underline;}
+.copyright{text-align: center; font-size: 18px;}
+.location:nth-child(3) .loc {
+    margin-left: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fl{float: left;}
+.fr{float: right;}
+.new{margin-left: 10px;}
+@media(max-width:698px){
+           header{height: 114px; font-size: 48px; left: 62px;}
+           .nav ul{margin: 25px 0 0 -37px;
+            font-size: 25px;}
+            container{flex-direction: column;
+                justify-content: center;
+                align-items: center;}
+                container img{height: 240px; margin-top: -136px;}
+                .lef-data .txt-1 {
+                    font-size: 34px;
+                }
+}
+
